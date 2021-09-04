@@ -7,7 +7,7 @@ h1 {
   font-weight: bold;
   color: white;
 
-  font-size: 5em;
+  font-size: 3em;
 }
 
 .title {
@@ -71,6 +71,7 @@ h1 {
 
 #features {
   text-align: center;
+  padding: 7% 15%;
 }
 
 h3 {
@@ -79,6 +80,20 @@ h3 {
   margin-top: .5em;
 }
 
+.feature-row {
+  margin-top: 2em;
+}
+
 .features-paragraph {
   color: #8f8f8f;
+}
+
+.feature-icon {
+  font-size: 5em;
+  color: #ef8172;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+
 }
