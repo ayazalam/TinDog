@@ -1,13 +1,18 @@
 body {
-  font-family: Nunito;
+  font-family: Montserrat;
 }
 
 h1 {
-  font-family: Nunito;
+  font-family: Montserrat;
   font-weight: bold;
   color: white;
 
   font-size: 5em;
+}
+
+.title {
+  font-size: 5em;
+  font-weight: bold;
 }
 
 .container-fluid {
@@ -22,7 +27,7 @@ h1 {
 }
 
 .ms-auto {
-  margin-right: 1em;
+
 }
 
 /* navigation bar */
@@ -33,7 +38,7 @@ h1 {
 
 .nav-link {
   font-size: 1.5em;
-  font-family: Nunito;
+  font-family: Montserrat;
   font-weight: lighter;
 
 }
@@ -46,7 +51,7 @@ h1 {
 }
 
 .nav-item {
-  padding: 0 18px;
+  padding: 0 18px 0 0;
 }
 
 /* title */
