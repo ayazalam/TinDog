@@ -6,8 +6,14 @@ h1 {
   font-family: Montserrat;
   font-weight: bold;
   color: white;
-
   font-size: 3em;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: Montserrat;
+  font-weight: bold;
+
 }
 
 .title {
@@ -19,12 +25,7 @@ h1 {
   padding: 3% 15%;
 }
 
-.iphone {
-  -ms-transform: rotate(20deg); /* IE 9 */
-  transform: rotate(25deg);
-  width: 60%;
-  margin-left: 20%;
-}
+
 
 .ms-auto {
 
@@ -67,11 +68,22 @@ h1 {
   margin: 5% 3% 5% 0;
 }
 
+.iphone {
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  right: 20%;
+}
+
+
 /* features */
 
 #features {
   text-align: center;
   padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
 }
 
 h3 {
@@ -96,4 +108,96 @@ h3 {
 .feature-icon:hover {
   color: #ff4c68;
 
+}
+
+/* Testimonials */
+
+
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.dog {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+  text-align: center;
+}
+
+.press-images {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.pricing-coliumn {
+  padding: 3% 2%;
+}
+
+#cta {
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+  color: #8f8f8f;
+}
+
+@media (max-width: 1200px) {
+
+  #title {
+    text-align: center;
+  }
+
+  li {
+    text-align: left;
+  }
+
+.iphone {
+      position: static;
+      width: 60%;
+      margin: 1em;
+      transform: rotate(0);
+    }
+
+    .title {
+      font-size: 3em;
+    }
+
+    #cta {
+      padding: 7% 15%;
+      background-color: #ff4c68;
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .extrabc {
+      font-size: 3em;
+    }
 }
